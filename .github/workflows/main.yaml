@@ -23,7 +23,7 @@ jobs:
     run: echo "My Secret is ${{secrets.MYSECRET}}"
   - name: List my current directory
     run: ls -l
-    name: before checkout
+  - name: before checkout
     run: ls -la
   - name: Checkout the current repo
     uses: actions/checkout@v3
